@@ -364,11 +364,11 @@ github_projects :
 #       name : Lowcountry Blues Club
 #       url : http://lowcountrybluesclub.blogspot.com
 external_links :
-  header : More Great gh-pages-blog Sites
+  header : My Github Projects
   links :
     - link :
-      name : The Dereck
-      url: http://thedereck.github.io
+      name : larsks
+      url: http://github.com/larsks
 
 
 # These are the bootstrap settings. These bootstrap settings will control both
