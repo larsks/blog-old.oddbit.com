@@ -404,7 +404,7 @@ external_links :
 #     enabled : true
 #     src : bootstrap.min.js
 bootstrap:
-  css : bootstrap.min.css
+  css : journal.min.css
   responsive :
     enabled : true
     css : bootstrap-responsive.min.css
