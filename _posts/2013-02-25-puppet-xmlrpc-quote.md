@@ -2,7 +2,7 @@
 layout: post
 title: A quote about XMLRPC
 date: 2013-02-25
-tags: puppet
+x-old-tags: puppet
 ---
 
 I've been reading up on Puppet 3 lately, and came across the

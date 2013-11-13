@@ -2,7 +2,7 @@
 layout: post
 title: Signing data with ssh-agent
 date: 2011-5-9
-tags: openssh,rsa,cryptography,ssl,ssh,openssl,ssh-agent
+x-old-tags: openssh,rsa,cryptography,ssl,ssh,openssl,ssh-agent
 ---
 
 This is follow-up to my previous post, [Converting OpenSSH public keys][1].

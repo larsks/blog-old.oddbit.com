@@ -2,7 +2,7 @@
 layout: post
 title: Why does the Neutron documentation recommend three interfaces?
 date: 2013-10-28
-tags: openstack,neutron,networking
+x-old-tags: openstack,neutron,networking
 ---
 
 The [documentation for configuring Neutron][neutron-docs] recommends

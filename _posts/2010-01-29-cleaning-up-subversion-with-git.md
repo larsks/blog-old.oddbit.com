@@ -2,7 +2,7 @@
 layout: post
 title: Cleaning up Subversion with Git
 date: 2010-1-29
-tags: versioncontrol,git,subversion,oldpost,fbpost,svn
+x-old-tags: versioncontrol,git,subversion,oldpost,fbpost,svn
 ---
 
 # Overview

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Posting to Scriptogr.am using the API
-tags: scriptogr.am,api
+x-old-tags: scriptogr.am,api
 date: 2012-11-05
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: NFS and the 16-group limit
 date: 2010-2-2
-tags: groups,gid,nfs,fbpost
+x-old-tags: groups,gid,nfs,fbpost
 ---
 
 I learned something new today: it appears that the underlying authorization mechanism used by NFS limits your group membership to 16 groups. From [http://bit.ly/cBhU8N][1]:

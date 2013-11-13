@@ -2,7 +2,7 @@
 layout: post
 title: Chasing OpenStack idle connection timeouts
 date: 2012-07-30
-tags: openstack,networking
+x-old-tags: openstack,networking
 ---
 
 ## The original problem

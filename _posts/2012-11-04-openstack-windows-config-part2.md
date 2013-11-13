@@ -2,7 +2,7 @@
 layout: post
 title: Automatic configuration of Windows instances in OpenStack, part 2
 Slug: openstack-windows-2
-tags: openstack,windows
+x-old-tags: openstack,windows
 Published: false
 ---
 

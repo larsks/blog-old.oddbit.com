@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Relocating from Blogger
-tags: meta
+x-old-tags: meta
 date: 2012-11-06
 ---
 

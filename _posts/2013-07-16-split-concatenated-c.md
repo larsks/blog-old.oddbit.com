@@ -2,7 +2,7 @@
 layout: post
 title: Split concatenated certificates with awk
 date: 2013-07-16
-tags: awk
+x-old-tags: awk
 ---
 
 [This][] is a short script that takes a list of concatenated

@@ -2,7 +2,7 @@
 layout: post
 title: Installing CrashPlan under FreeBSD 8
 date: 2011-5-22
-tags: java,freebsd,crashplan,backup,storage
+x-old-tags: java,freebsd,crashplan,backup,storage
 ---
 
 This articles describes how I got [CrashPlan][1] running on my FreeBSD 8(-STABLE) system. [These instructions][2] by Kim Scarborough were my starting point, but as these were for FreeBSD 7 there were some additional steps necessary to get things working.

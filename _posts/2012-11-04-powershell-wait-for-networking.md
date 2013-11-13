@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Waiting for networking using PowerShell
-tags: powershell,networking,windows
+x-old-tags: powershell,networking,windows
 date: 2012-11-04
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Filtering Blogger feeds
 date: 2010-2-10
-tags: atom,blogger,filter,pipes,rss
+x-old-tags: atom,blogger,filter,pipes,rss
 ---
 
 # 

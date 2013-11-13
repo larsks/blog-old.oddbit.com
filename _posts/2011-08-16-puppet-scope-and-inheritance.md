@@ -2,7 +2,7 @@
 layout: post
 title: Puppet, scope, and inheritance
 date: 2011-8-16
-tags: puppet
+x-old-tags: puppet
 ---
 
 I note this here because it wasn't apparent to me from the Puppet documentation.

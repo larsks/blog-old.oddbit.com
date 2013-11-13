@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Generating random passwords in PowerShell
-tags: powershell,windows,passwords
+x-old-tags: powershell,windows,passwords
 date: 2012-11-04
 ---
 

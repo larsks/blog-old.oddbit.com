@@ -2,7 +2,7 @@
 layout: post
 title: Automatic hostname entries for libvirt domains
 date: 2013-10-04
-tags: libvirt,virtualization
+x-old-tags: libvirt,virtualization
 Slug: automatic-dns-entries-for-libvirt-domains
 ---
 

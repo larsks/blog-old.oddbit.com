@@ -2,7 +2,7 @@
 layout: post
 title: Patch to gPXE dhcp command
 date: 2010-7-22
-tags: gpxe,linux,dhcp
+x-old-tags: gpxe,linux,dhcp
 ---
 
 **Update**: This patch has been [accepted][1] into gPXE.

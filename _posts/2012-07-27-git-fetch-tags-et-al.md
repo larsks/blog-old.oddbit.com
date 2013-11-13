@@ -2,7 +2,7 @@
 layout: post
 title: Git fetch, tags, remotes, and more
 date: 2012-07-27
-tags: git
+x-old-tags: git
 ---
 
 I’ve been playing around with Git, Puppet, and GPG verification of our

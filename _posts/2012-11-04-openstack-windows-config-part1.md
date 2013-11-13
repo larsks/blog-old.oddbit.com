@@ -2,7 +2,7 @@
 layout: post
 title: Automatic configuration of Windows instances in OpenStack, part 1
 Slug: openstack-windows-1
-tags: openstack,windows
+x-old-tags: openstack,windows
 date: 2012-11-04
 ---
 
