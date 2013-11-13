@@ -2,7 +2,11 @@
 layout: post
 title: Converting OpenSSH public keys
 date: 2011-5-8
-x-old-tags: openssh,rsa,cryptography,openssl
+tags:
+  - openssl
+  - openssh
+  - rsa
+  - cryptography
 ---
 
 > I've posted a [followup][1] to this article that discusses ssh-agent.

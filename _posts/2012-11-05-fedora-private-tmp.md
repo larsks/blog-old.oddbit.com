@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Private /tmp directories in Fedora
-x-old-tags: fedora,systemd
 date: 2012-11-05
+tags:
+  - fedora
+  - systemd
 ---
 
 I ran into an odd problem the other day: I was testing out some

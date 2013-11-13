@@ -2,7 +2,14 @@
 layout: post
 title: MBTA realtime XML feed
 date: 2010-2-7
-x-old-tags: bus,location,mbta,xml,gps,fbpost,transportation
+tags:
+  - xml
+  - gps
+  - fbpost
+  - transportation
+  - bus
+  - location
+  - mbta
 ---
 
 The [MBTA][1] has a trial web service interface that provides access to realtime location information for select MBTA buses, as well as access to route information, arrival prediction, and other features. More information can be found here:

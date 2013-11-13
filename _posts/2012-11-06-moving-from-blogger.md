@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Relocating from Blogger
-x-old-tags: meta
 date: 2012-11-06
+tags:
+  - meta
 ---
 
 I'm in the process of porting over content from Blogger.  This may

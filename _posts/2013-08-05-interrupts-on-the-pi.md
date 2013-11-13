@@ -2,7 +2,10 @@
 layout: post
 title: Interrupts on the PiFace
 date: 2013-08-05
-x-old-tags: raspberrypi,python,piface
+tags:
+  - raspberrypi
+  - python
+  - piface
 ---
 
 I recently acquired both a [Raspberry Pi][] and a [PiFace][] IO board.

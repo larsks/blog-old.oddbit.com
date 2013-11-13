@@ -2,7 +2,14 @@
 layout: post
 title: "Fring: How not to handle registration"
 date: 2010-1-24
-x-old-tags: skype,voip,sucks,fring,review,fbpost,android
+tags:
+  - fring
+  - review
+  - fbpost
+  - android
+  - skype
+  - voip
+  - sucks
 ---
 
 I thought I'd give Fring a try after seeing some favorable reviews on other sites. If you haven't previously heard of Fring, the following blurb from their website might be helpful:  

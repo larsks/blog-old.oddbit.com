@@ -2,7 +2,12 @@
 layout: post
 title: Retrieving Blogger posts by post id
 date: 2010-1-29
-x-old-tags: blogger,api,gdata,python,fbpost
+tags:
+  - python
+  - fbpost
+  - blogger
+  - api
+  - gdata
 ---
 
 I spent some time recently trying to figure out, using Google's [gdata][1] API, how to retrieve a post from a [Blogger][2] blog if I know corresponding post id. As far as I can tell there is no obvious way of doing this, at least not using the gdata.blogger.client api, but after much nashing of teeth I came up with the following solution.

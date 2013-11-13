@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Waiting for networking using PowerShell
-x-old-tags: powershell,networking,windows
 date: 2012-11-04
+tags:
+  - powershell
+  - networking
+  - windows
 ---
 
 I've recently been exploring the world of Windows scripting, and I ran

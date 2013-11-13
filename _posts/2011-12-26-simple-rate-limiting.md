@@ -2,7 +2,9 @@
 layout: post
 title: Rate limiting made simple
 date: 2011-12-26
-x-old-tags: networking,linux
+tags:
+  - networking
+  - linux
 ---
 
 I use [CrashPlan][1] as a backup service. It works and is very simple to set

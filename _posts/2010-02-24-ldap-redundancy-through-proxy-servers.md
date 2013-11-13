@@ -2,7 +2,14 @@
 layout: post
 title: LDAP redundancy through proxy servers
 date: 2010-2-24
-x-old-tags: ha,howto,ssl,balance,ldap,stunnel,proxy
+tags:
+  - balance
+  - ldap
+  - stunnel
+  - proxy
+  - ha
+  - howto
+  - ssl
 ---
 
 # Problem 1: Failover
