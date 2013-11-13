@@ -1,7 +1,9 @@
-Title: GPG Key
-Slug: gpgkey
-Type: page
-Date: 2013-10-04
+---
+title: GPG Key
+slug: gpgkey
+layout: page
+date: 2013-10-04
+---
 
 Key ID: `0x362D63A80853D4CF`
 
