@@ -111,11 +111,11 @@ This should verify that CrashPlan is running.
 
 Follow the instructions provided by CrashPlan for [connecting to a headless CrashPlan desktop][7].
 
-   [1]: http://crashplan.com/
-   [2]: http://kim.scarborough.chicago.il.us/do/nerd/tips/crashplan
-   [3]: http://www.freebsd.org/doc/handbook/linuxemu-lbc-install.html
-   [4]: http://www.crashplan.com/consumer/download.html?os=Linux
-   [5]: http://wiki.freebsd.org/linux-kernel
-   [6]: http://wiki.freebsd.org/
-   [7]: http://stgsupport.crashplan.com/doku.php/how_to/configure_a_headless_client
+[1]: http://crashplan.com/
+[2]: http://kim.scarborough.chicago.il.us/do/nerd/tips/crashplan
+[3]: http://www.freebsd.org/doc/handbook/linuxemu-lbc-install.html
+[4]: http://www.crashplan.com/consumer/download.html?os=Linux
+[5]: http://wiki.freebsd.org/linux-kernel
+[6]: http://wiki.freebsd.org/
+[7]: http://stgsupport.crashplan.com/doku.php/how_to/configure_a_headless_client
 

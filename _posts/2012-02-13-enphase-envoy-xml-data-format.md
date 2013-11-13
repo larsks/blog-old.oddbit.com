@@ -231,7 +231,7 @@ And the response body -- after inflating it -- looks something like this:
 My goal is to set up a simple proxy that in addition to passing the information along to Enphase will also collect it locally. I'll update the blog if I make progress on that front.  
 
 
-   [1]: http://enphase.com/
-   [2]: http://enphase.com/products/envoy/
-   [3]: https://reports.enphaseenergy.com/emu_reports/performance_report?webcomm_version=3.0
+[1]: http://enphase.com/
+[2]: http://enphase.com/products/envoy/
+[3]: https://reports.enphaseenergy.com/emu_reports/performance_report?webcomm_version=3.0
 

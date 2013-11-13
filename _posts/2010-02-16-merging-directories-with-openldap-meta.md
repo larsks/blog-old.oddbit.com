@@ -222,6 +222,6 @@ The sample configuration files, data, and code referenced in this post are avail
 
 I hope you've found this post useful, or at least informative. If you have any comments or questions regarding this post, please log them as issues on GitHub. This will make them easier for me to track.
 
-   [1]: http://www.openldap.org/software/man.cgi?query=slapd-meta&apropos=0&sektion=0&manpath=OpenLDAP+2.4-Release&format=html
-   [2]: http://github.com/larsks/OpenLDAP-Metadirectory-Example
+[1]: http://www.openldap.org/software/man.cgi?query=slapd-meta&apropos=0&sektion=0&manpath=OpenLDAP+2.4-Release&format=html
+[2]: http://github.com/larsks/OpenLDAP-Metadirectory-Example
 

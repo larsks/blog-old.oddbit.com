@@ -17,5 +17,5 @@ I learned something new today: it appears that the underlying authorization mech
 
 We ran into this today while diagnosing a weird permissions issue. Who knew?
 
-   [1]: http://bit.ly/cBhU8N
+[1]: http://bit.ly/cBhU8N
 

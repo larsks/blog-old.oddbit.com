@@ -126,5 +126,5 @@ With these transformations in place, the LG 420G was able to successfully import
         unix2dos > $@
     
 
-   [1]: http://www.tracfone.com/
+[1]: http://www.tracfone.com/
 

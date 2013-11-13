@@ -145,5 +145,5 @@ uses the system keytab to authenticate to AD, and (b) allows anonymous LDAP
 queries from localhost. I will discuss this configuration in a future post.
 -->
 
- [1]: http://www.padl.com/OSS/nss_ldap.html  
+[1]: http://www.padl.com/OSS/nss_ldap.html  
 

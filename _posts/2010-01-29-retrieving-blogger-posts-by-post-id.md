@@ -18,8 +18,8 @@ Given client, a [gdata.blogger.client][3] instance, and blog, a [gdata.blogger.d
 
 I'm not sure if this is the canonical solution or not, but it appears to work for me.
 
-   [1]: http://code.google.com/apis/gdata/docs/2.0/basics.html
-   [2]: http://www.blogger.com/
-   [3]: http://gdata-python-client.googlecode.com/svn/trunk/pydocs/gdata.blogger.client.html
-   [4]: http://gdata-python-client.googlecode.com/svn/trunk/pydocs/gdata.blogger.data.html
+[1]: http://code.google.com/apis/gdata/docs/2.0/basics.html
+[2]: http://www.blogger.com/
+[3]: http://gdata-python-client.googlecode.com/svn/trunk/pydocs/gdata.blogger.client.html
+[4]: http://gdata-python-client.googlecode.com/svn/trunk/pydocs/gdata.blogger.data.html
 

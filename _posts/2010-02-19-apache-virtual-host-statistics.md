@@ -32,6 +32,6 @@ It's not [pong][1], but I've found it useful.
 
 You can download the code from the [project page][2] on GitHub.
 
-   [1]: http://code.google.com/p/logstalgia/
-   [2]: http://github.com/larsks/vhoststats/
+[1]: http://code.google.com/p/logstalgia/
+[2]: http://github.com/larsks/vhoststats/
 

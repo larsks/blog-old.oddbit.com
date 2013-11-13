@@ -27,16 +27,16 @@ Using the gateway service is really simple:
   2. Start your application. You will see messages like the following in syslog (if you are logging DEBUG level messages):
     
     
-        Aug  6 20:10:12 arcadia upnpd[19816]: Failure in
-          GateDeviceDeletePortMapping: DeletePortMap: Proto:UDP Port:57875
-        Aug  6 20:10:12 arcadia upnpd[19816]: AddPortMap: DevUDN:
-          uuid:75802409-bccb-40e7-8e6c-fa095ecce13e ServiceID: urn:upnp-org:serviceId:WANIPConn1
-          RemoteHost: (null) Prot: UDP ExtPort: 57875 Int: 192.168.1.118.57875
-        Aug  6 20:10:12 arcadia upnpd[19816]: Failure in
-          GateDeviceDeletePortMapping: DeletePortMap: Proto:UDP Port:11657
-        Aug  6 20:10:12 arcadia upnpd[19816]: AddPortMap: DevUDN:
-          uuid:75802409-bccb-40e7-8e6c-fa095ecce13e ServiceID: urn:upnp-org:serviceId:WANIPConn1
-          RemoteHost: (null) Prot: UDP ExtPort: 11657 Int: 192.168.1.118.11657
+         Aug  6 20:10:12 arcadia upnpd[19816]: Failure in
+           GateDeviceDeletePortMapping: DeletePortMap: Proto:UDP Port:57875
+         Aug  6 20:10:12 arcadia upnpd[19816]: AddPortMap: DevUDN:
+           uuid:75802409-bccb-40e7-8e6c-fa095ecce13e ServiceID: urn:upnp-org:serviceId:WANIPConn1
+           RemoteHost: (null) Prot: UDP ExtPort: 57875 Int: 192.168.1.118.57875
+         Aug  6 20:10:12 arcadia upnpd[19816]: Failure in
+           GateDeviceDeletePortMapping: DeletePortMap: Proto:UDP Port:11657
+         Aug  6 20:10:12 arcadia upnpd[19816]: AddPortMap: DevUDN:
+           uuid:75802409-bccb-40e7-8e6c-fa095ecce13e ServiceID: urn:upnp-org:serviceId:WANIPConn1
+           RemoteHost: (null) Prot: UDP ExtPort: 11657 Int: 192.168.1.118.11657
         
 
     For each forwarding requested by the client, upnpd first attempts to remove the mapping and then creates a new rule. Exactly how upnp implements these rules on your system is controlled by `/etc/upnpd.conf` -- if you want to use something other than _iptables_, or use custom chains, this is where you would make your changes.
@@ -112,8 +112,8 @@ Consider the following, from the [Linux IGD documentation][4]:
 
 In other words, in the battle between security and convenience, UPnP is weighs in heavily on the convenience side. You will have to decide whether this meets your particular requirements.
 
-   [1]: http://en.wikipedia.org/wiki/Universal_Plug_and_Play
-   [2]: http://linux-igd.sourceforge.net/
-   [3]: http://drop.io/oddbitdotcom_linuxigd
-   [4]: http://linux-igd.sourceforge.net/documentation.php
+[1]: http://en.wikipedia.org/wiki/Universal_Plug_and_Play
+[2]: http://linux-igd.sourceforge.net/
+[3]: http://drop.io/oddbitdotcom_linuxigd
+[4]: http://linux-igd.sourceforge.net/documentation.php
 

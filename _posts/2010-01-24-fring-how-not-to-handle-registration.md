@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fring: How not to handle registration
+title: "Fring: How not to handle registration"
 date: 2010-1-24
 x-old-tags: skype,voip,sucks,fring,review,fbpost,android
 ---
@@ -30,3 +30,4 @@ What, that's it? How about a few hints? Or better yet, how about you tell me wha
 Fring is the current winner of the "shortest lifetime on my phone" award, and because it was so bad it doesn't even get a QR code. Bad app. Not for you.  
   
 **Edit**: Removed punctuation from my password. Now Fring tells me, "Password too long." Ha! 
+

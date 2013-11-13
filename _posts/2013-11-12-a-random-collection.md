@@ -77,10 +77,9 @@ And start them back up again the same way:
 
 Without any additional arguments `openstack-service stop` will stop all OpenStack services on the current host.
 
-  [sqlalchemy]: http://www.sqlalchemy.org/
-  [openstack]: http://openstack.org/
-  [crux]: http://github.com/larsks/crux
-  [sqlcli]: http://github.com/larsks/sqlcli
-  [osctl]: http://github.com/larsks/osctl
-  
+[sqlalchemy]: http://www.sqlalchemy.org/
+[openstack]: http://openstack.org/
+[crux]: http://github.com/larsks/crux
+[sqlcli]: http://github.com/larsks/sqlcli
+[osctl]: http://github.com/larsks/osctl
 

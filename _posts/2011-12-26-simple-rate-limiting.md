@@ -17,6 +17,6 @@ so that I can find it when I need to do this again someday.
 
 <script src="https://gist.github.com/4014881.js"></script>
 
- [1]: http://www.crashplan.com/
- [2]: https://crashplan.zendesk.com/entries/446273-throttle-bandwidth-by-hours?page=1#post_20799486
+[1]: http://www.crashplan.com/
+[2]: https://crashplan.zendesk.com/entries/446273-throttle-bandwidth-by-hours?page=1#post_20799486
 

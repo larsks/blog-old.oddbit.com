@@ -61,3 +61,6 @@ will set up outbound NAT rules so that "external" traffic from your
 instances will masquerade using the primary ip address of your network
 controller.
 
+[neutron-docs]: http://docs.openstack.org/havana/install-guide/install/yum/content/neutron-install.dedicated-network-node.html
+
+

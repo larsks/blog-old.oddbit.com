@@ -231,6 +231,6 @@ The output will look something like:
     ------------------------------------------------------------------------
     
 
-   [1]: http://subversion.tigris.org/
-   [2]: http://git-scm.com/
+[1]: http://subversion.tigris.org/
+[2]: http://git-scm.com/
 
