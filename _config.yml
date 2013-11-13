@@ -575,3 +575,6 @@ analytics :
   google_analytics :
     enabled : false
     tracking_id : UA-1234567
+
+permalink: /:categories/:year/:month/:day/:title
+
