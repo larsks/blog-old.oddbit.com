@@ -23,12 +23,12 @@
 # url : http://thedereck.github.io
 # email : thedereck@thedereck.com
 # author : Dereck Curry
-name : gh-pages-blog
-brand : gh-pages-blog
-description : The Official gh-pages-blog GitHub Page
-url : http://thedereck.github.io/gh-pages-blog
-email : thedereck@thedereck.com
-author: Dereck Curry
+name : Odd Bits
+brand : oddbit.com
+description : It's not pretty, but it works.
+url : http://blog.oddbit.com/
+email : lars@oddbit.com
+author: Lars Kellogg-Stedman
 
 
 # The following is a list of files to exclude from inclusion in the
@@ -75,7 +75,7 @@ notice : false
 #     full_url : http://www.gravatar.com/avatar/2f8947394b8acb62e1055f27.png
 #     type : png
 favicon :
-  enabled : true
+  enabled : false
   local :
     enabled : true
     partial_url : /img/ghpb-favicon.png
@@ -166,7 +166,7 @@ favicon :
 #     enabled : true
 sections:
   brief_bio :
-    enabled : true
+    enabled : false
     image :
       enabled : false
       url : false
@@ -214,7 +214,7 @@ navbar :
   archive :
     enabled : true
   categories :
-    enabled : true
+    enabled : false
   tags :
     enabled : true
   github_projects :
