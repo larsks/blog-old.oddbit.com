@@ -1,12 +1,12 @@
 #!/bin/sh
 
-postdir=drafts
+postdir=_drafts
 
 while getopts 'pdt:' ch; do
 	case $ch in
-		(p) postdir=posts;;
-		(d) postdir=drafts;;
-		(t) tags="${tags:+tags,}$OPTARG";
+		(p) postdir=_posts;;
+		(d) postdir=_drafts;;
+		(t) tags="${tags:+$tags }$OPTARG";
 	esac
 done
 shift $(( $OPTIND - 1 ))
@@ -32,9 +32,14 @@ date=$(date +%Y-%m-%d)
 post=$postdir/$date-$slug.md
 
 cat > $post <<EOF
-Title: $title
-Date: $date
-Tags: $tags
+---
+title: $title
+date: $date
+tags:
+$(for tag in $tags; do
+echo "  - $tag"
+done)
+---
 
 Post starts here.
 EOF
