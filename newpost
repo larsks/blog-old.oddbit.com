@@ -1,0 +1,43 @@
+#!/bin/sh
+
+postdir=drafts
+
+while getopts 'pdt:' ch; do
+	case $ch in
+		(p) postdir=posts;;
+		(d) postdir=drafts;;
+		(t) tags="${tags:+tags,}$OPTARG";
+	esac
+done
+shift $(( $OPTIND - 1 ))
+
+[ "$1" ] || exit
+
+title=$1
+slug=$(
+	echo $title |
+	tr -d '[[:punct:]]' |
+	tr '[[:upper:]]' '[[:lower:]]' |
+	tr '[[:space:]]' '-' |
+	cut -c1-20
+	)
+slug=${slug%-}
+
+[ "$slug" ] || {
+	echo "ERROR: failed to generate slug." >&2
+	exit 1
+}
+
+date=$(date +%Y-%m-%d)
+post=$postdir/$date-$slug.md
+
+cat > $post <<EOF
+Title: $title
+Date: $date
+Tags: $tags
+
+Post starts here.
+EOF
+
+gvim $post
+
