@@ -294,6 +294,7 @@ social_links :
     - link:
       enabled: true
       name: larsks @ freenode
+      font_awesome_icon : comments
       url: https://webchat.freenode.net/
 
 # These are a list of GitHub projects that the blog owner would like to
