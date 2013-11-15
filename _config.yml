@@ -564,10 +564,10 @@ disqus :
 #     enabled : true
 #     tracking_id : UA-1234567
 analytics :
-  enabled : false
+  enabled : true
   google_analytics :
-    enabled : false
-    tracking_id : UA-1234567
+    enabled : true
+    tracking_id : UA-45791426-1
 
 permalink: /:categories/:year/:month/:day/:title
 
