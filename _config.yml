@@ -291,7 +291,10 @@ social_links :
       name : Twitter
       font_awesome_icon : icon-twitter
       url : http://www.twitter.com/larsks/
-
+    - link:
+      enabled: true
+      name: larsks @ freenode
+      url: https://webchat.freenode.net/
 
 # These are a list of GitHub projects that the blog owner would like to
 # showcase. Although the intent is the projects showcased would be the
