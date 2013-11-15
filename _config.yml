@@ -166,22 +166,22 @@ favicon :
 #     enabled : true
 sections:
   brief_bio :
-    enabled : false
+    enabled : true
     image :
-      enabled : false
-      url : false
-    content :
       enabled : true
+      url : http://www.gravatar.com/avatar/b9506717d24256a090524dd5505d3207.png
+    content :
+      enabled : false
     social_links :
       enabled : false
     github_projects :
-      enabled : true
+      enabled : false
   social_links :
     enabled : true
   github_projects :
     enabled : false
   external_links :
-    enabled : false
+    enabled : true
   archive :
     enabled : false
   categories :
@@ -317,8 +317,14 @@ github_projects :
   header : GitHub Projects
   projects :
   - project :
-    name : gh-pages-blog
-    url : https://github.com/thedereck/gh-pages-blog
+    name : crux
+    url : https://github.com/larsks/crux
+  - project :
+    name : sqlcli
+    url : https://github.com/larsks/sqlcli
+  - project :
+    name : osctl
+    url : https://github.com/larsks/osctl
 
 
 # These are links to other websites outside of the blog that are not part of
@@ -344,11 +350,14 @@ github_projects :
 #       name : Lowcountry Blues Club
 #       url : http://lowcountrybluesclub.blogspot.com
 external_links :
-  header : My Github Projects
+  header : External links
   links :
     - link :
-      name : larsks
-      url: http://github.com/larsks
+      name : openstack
+      url: http://openstack.org/
+    - link :
+      name : redhat
+      url: http://redhat.com/
 
 
 # These are the bootstrap settings. These bootstrap settings will control both
