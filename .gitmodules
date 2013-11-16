@@ -1,3 +1,6 @@
 [submodule "_posts"]
 	path = _posts
 	url = https://github.com/larsks/blog.oddbit.com-posts.git
+[submodule "assets"]
+	path = assets
+	url = https://github.com/larsks/blog.oddbit.com-posts.git
