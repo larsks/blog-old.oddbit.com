@@ -569,5 +569,5 @@ analytics :
     enabled : true
     tracking_id : UA-45791426-1
 
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:year/:month/:day/:title
 
