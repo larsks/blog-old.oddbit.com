@@ -541,8 +541,8 @@ rss :
 #   shortname : TheDereck
 #   show_comment_count : false
 disqus :
-  enabled : false
-  shortname : myshortname
+  enabled : true
+  shortname : oddbit
   show_comment_count : true
 
 
