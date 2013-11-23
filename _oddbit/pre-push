@@ -5,6 +5,11 @@ if ! git diff-files --quiet _posts; then
 	exit 0
 fi
 
+if ! (cd _posts; git diff-index --quiet origin/posts); then
+	echo "posts are out of sync (skipping tag maintenance)"
+	exit 0
+fi
+
 echo "cleaning tag feeds"
 _oddbit/cleantagfeeds
 
