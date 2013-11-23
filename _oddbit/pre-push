@@ -1,9 +1,11 @@
 #!/bin/sh
 
-set -e
-
 echo "cleaning tag feeds"
 _oddbit/cleantagfeeds
+
+# We expect errors from `find`, so put this
+# after we clean things up.
+set -e
 
 echo "generating tag feeds"
 _oddbit/gentagfeeds
@@ -11,7 +13,7 @@ _oddbit/gentagfeeds
 if ! git diff-files --quiet tag; then
 	echo 'committing tag feed updates'
 	git add -A tag
-	git commit -m 'automatic tag update'
+	git commit -m 'automatic tag update' tag
 fi
 
 exit 0
