@@ -37,7 +37,11 @@ if __name__ == '__main__':
 
     for f in os.listdir('_posts'):
         try:
-            d = Document(os.path.join('_posts', f))
+            path = os.path.join('_posts', f)
+            if not os.path.isfile(path):
+                continue
+
+            d = Document(path)
             tags = tags.union(d.metadata.get('tags', []))
         except Exception as detail:
             print >>sys.stderr, 'Failed reading:', f
