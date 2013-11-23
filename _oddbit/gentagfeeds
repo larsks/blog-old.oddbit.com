@@ -1,0 +1,57 @@
+#!/usr/bin/env python
+
+import os
+import sys
+import errno
+
+import yaml
+import jinja2
+
+class Document (object):
+    def __init__(self, path):
+        self.path = path
+        self.metadata = {}
+        self.parse()
+
+    def parse(self):
+        state = 0
+        frontmatter = []
+        with open(self.path) as fd:
+            for line in fd:
+                line = line.rstrip()
+                if state == 0:
+                    if line == '---':
+                        state = 1
+                    else:
+                        break
+                elif state == 1:
+                    if line == '---':
+                        break
+                    else:
+                        frontmatter.append(line)
+        if frontmatter:
+            self.metadata = yaml.load('\n'.join(frontmatter))
+
+if __name__ == '__main__':
+    tags = set()
+
+    for f in os.listdir('_posts'):
+        try:
+            d = Document(os.path.join('_posts', f))
+            tags = tags.union(d.metadata.get('tags', []))
+        except Exception as detail:
+            print >>sys.stderr, 'Failed reading:', f
+            raise
+
+    with open('_oddbit/templates/tagfeed.yaml') as fd:
+        tagfeed = jinja2.Template(fd.read())
+
+    for t in tags:
+        try:
+            os.makedirs('tag/%s/rss' % t)
+        except OSError as detail:
+            if detail.errno != errno.EEXIST:
+                raise
+        with open('tag/%s/rss/index.xml' % t, 'w') as fd:
+            fd.write(tagfeed.render(tag=t))
+
