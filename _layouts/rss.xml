@@ -32,6 +32,18 @@
 			{% endif %}
 
 			{% for p in site.posts %}
+        {% if page contains 'tags' %}
+          {% assign selected = false %}
+          {% for t in p.tags %}
+            {% if page.tags contains t %}
+              {% assign selected = true %}
+            {% endif %}
+          {% endfor %}
+
+          {% if selected == false %}
+          {% continue %}
+          {% endif %}
+        {% endif %}
 				<item>
 					{% if p.title %}
 						<title>{{ p.title }}</title>
