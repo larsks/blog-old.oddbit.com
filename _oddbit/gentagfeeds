@@ -46,7 +46,9 @@ if __name__ == '__main__':
     with open('_oddbit/templates/tagfeed.yaml') as fd:
         tagfeed = jinja2.Template(fd.read())
 
+    print 'Generating tag feeds:',
     for t in tags:
+        print t,
         try:
             os.makedirs('tag/%s/rss' % t)
         except OSError as detail:
@@ -54,4 +56,5 @@ if __name__ == '__main__':
                 raise
         with open('tag/%s/rss/index.xml' % t, 'w') as fd:
             fd.write(tagfeed.render(tag=t))
+    print
 

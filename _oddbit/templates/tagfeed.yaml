@@ -2,6 +2,6 @@
 layout: rss
 exclude: true
 tags:
-  {{tag}}
+  - {{tag}}
 ---
 

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Delete tag feeds unless there is a `.keep` file in the
+# same directory.
+find tag/* -name index.xml \
+	-execdir sh -c 'test -f .keep || rm -f index.xml' \;
+find tag/* -type d -delete
+

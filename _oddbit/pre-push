@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+
+echo "cleaning tag feeds"
+_oddbit/cleantagfeeds
+
+echo "generating tag feeds"
+_oddbit/gentagfeeds
+
+if ! git diff-files --quiet tag; then
+	echo 'committing tag feed updates'
+	git add -A tag
+	git commit -m 'automatic tag update'
+fi
+
+exit 0
+
