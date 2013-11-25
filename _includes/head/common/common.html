@@ -6,6 +6,9 @@
 	{% elsif page.author %}
 		<meta name="author" content='{{ page.author }}'>
 	{% endif %}
+  {% if page.tags %}
+  <meta name="keywords" content="{{ page.tags | join:"," }}">
+  {% endif %}
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="{{ site.url }}/css/{{ site.bootstrap.css }}" rel="stylesheet" media="screen">
 	<link href="{{ site.url }}/css/gh-pages-blog.css" rel="stylesheet" media="screen">
