@@ -34,9 +34,13 @@ exclude: true
 
 				<br>
 
-				{{ p.excerpt }}
+        {% capture excerpt %}
+        {{ p.content | split:'<!-- more -->' | first }}
+        {% endcapture %}
 
-        {% if p.excerpt.size < p.content.size %}
+        {{ excerpt }}
+
+        {% if excerpt.size < p.content.size %}
         <p><a href="{{site.url}}{{p.url}}">Read more...</a></p>
         {% endif %}
 
