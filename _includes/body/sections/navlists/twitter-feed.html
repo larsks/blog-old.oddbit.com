@@ -1,0 +1,12 @@
+{% if site.sections.twitter_feed.enabled %}
+	{% assign section_twitter_feed_html = null %}
+	{% capture section_twitter_feed_html %}
+			<div class="well ghpb-well-navlist">
+        
+<a class="twitter-timeline"  href="https://twitter.com/larsks"  data-widget-id="405071303511511041">Tweets by @larsks</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+			</div>
+	{% endcapture %}
+	{{ section_twitter_feed_html | strip_newlines | remove:'	' }}
+{% endif %}

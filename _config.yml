@@ -178,6 +178,8 @@ sections:
       enabled : false
   social_links :
     enabled : true
+  twitter_feed :
+    enabled : true
   github_projects :
     enabled : false
   external_links :
