@@ -570,4 +570,5 @@ analytics :
     tracking_id : UA-45791426-1
 
 permalink: /:year/:month/:day/:title
+excerpt_separator: "<!-- more -->"
 

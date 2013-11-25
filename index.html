@@ -33,7 +33,12 @@ exclude: true
 				{% endif %}
 
 				<br>
-				{{ p.content }}
+
+				{{ p.excerpt }}
+
+        {% if p.excerpt.size < p.content.size %}
+        <p><a href="{{site.url}}{{p.url}}">Read more...</a></p>
+        {% endif %}
 
 				<br>
 				<div class="row">
