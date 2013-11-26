@@ -1,5 +1,11 @@
 #!/bin/sh
 
+posts_branch=$(cd _posts && git rev-parse --abbrev-ref HEAD)
+if [ "$posts_branch" != "posts" ]; then
+	echo "posts repo is on wrong branch (skipping tag maintenance)"
+	exit 0
+fi
+
 if ! git diff-files --quiet _posts; then
 	echo "posts are out of sync (skipping tag maintenance)"
 	exit 0
