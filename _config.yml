@@ -1,3 +1,7 @@
+safe: true
+lsi: false
+pygments: true
+
 # The following configuration items need set up specifically for your site
 #
 # name - This is the site name. The site name is used in the title of
