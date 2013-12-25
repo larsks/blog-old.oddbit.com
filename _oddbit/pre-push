@@ -1,4 +1,8 @@
 #!/bin/sh
+#
+# This script is meant to be used as a pre-push hook for git.  It ensures that
+# the "posts" submodule is in a sane state before attempting to push the
+# repository (to avoid generating tag feeds pointing at nonexistent posts).
 
 posts_branch=$(cd _posts && git rev-parse --abbrev-ref HEAD)
 if [ "$posts_branch" != "posts" ]; then
