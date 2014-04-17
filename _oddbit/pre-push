@@ -4,20 +4,22 @@
 # the "posts" submodule is in a sane state before attempting to push the
 # repository (to avoid generating tag feeds pointing at nonexistent posts).
 
-posts_branch=$(cd _posts && git rev-parse --abbrev-ref HEAD)
-if [ "$posts_branch" != "posts" ]; then
-	echo "posts repo is on wrong branch (skipping tag maintenance)"
-	exit 0
-fi
+if ! [ "$SKIP_PRE_PUSH_CHECKS" ]; then
+	posts_branch=$(cd _posts && git rev-parse --abbrev-ref HEAD)
+	if [ "$posts_branch" != "posts" ]; then
+		echo "posts repo is on wrong branch (skipping tag maintenance)"
+		exit 0
+	fi
 
-if ! git diff-files --quiet _posts; then
-	echo "posts are out of sync (skipping tag maintenance)"
-	exit 0
-fi
+	if ! git diff-files --quiet _posts; then
+		echo "posts are out of sync (skipping tag maintenance)"
+		exit 0
+	fi
 
-if ! (cd _posts; git diff-index --quiet origin/posts); then
-	echo "posts are out of sync (skipping tag maintenance)"
-	exit 0
+	if ! (cd _posts; git diff-index --quiet origin/posts); then
+		echo "posts are out of sync (skipping tag maintenance)"
+		exit 0
+	fi
 fi
 
 echo "cleaning tag feeds"
