@@ -30,10 +30,10 @@ markdown: kramdown
 # author : Dereck Curry
 name : Odd Bits
 brand : oddbit.com
-description : It's not pretty, but it works.
-url : http://blog.oddbit.com
-email : lars@oddbit.com
-author: Lars Kellogg-Stedman
+description : "It's not pretty, but it works."
+url : "http://blog.oddbit.com"
+email : "lars@oddbit.com"
+author: "Lars Kellogg-Stedman"
 
 
 # The following is a list of files to exclude from inclusion in the
