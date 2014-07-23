@@ -14,5 +14,3 @@ Content (posts, images, and other assets) is stored in a separate
 [posts]: http://github.com/larsks/blog.oddbit.com-posts
 [github pages]: http://pages.github.com/
 
-The simple way to use GitHub Pages as your account or project blog and website.
-
