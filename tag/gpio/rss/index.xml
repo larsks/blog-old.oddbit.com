@@ -2,5 +2,5 @@
 layout: rss
 exclude: true
 tags:
-  - lego
+  - gpio
 ---
